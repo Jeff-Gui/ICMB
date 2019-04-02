@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.24 (Build 197) (http://www.copasi.org) at 2019-03-26 13:49:29 UTC -->
+<!-- generated with COPASI 4.24 (Build 197) (http://www.copasi.org) at 2019-04-02 13:47:40 UTC -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="24" versionDevel="197" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -70,7 +70,37 @@ Reaction scheme where the products are created from the reactants and the change
 
     </MiriamAnnotation>
     <ListOfCompartments>
-      <Compartment key="Compartment_0" name="compartment" simulationType="fixed" dimensionality="3" addNoise="false">
+      <Compartment key="Compartment_0" name="Skeletal_muscle_cells" simulationType="fixed" dimensionality="3" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Compartment_0">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2019-04-02T21:46:13Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
+      </Compartment>
+      <Compartment key="Compartment_1" name="Hepatocytes" simulationType="fixed" dimensionality="3" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Compartment_1">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2019-04-02T21:46:15Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
       </Compartment>
     </ListOfCompartments>
     <ListOfMetabolites>
@@ -639,7 +669,9 @@ Reaction scheme where the products are created from the reactants and the change
     <ListOfReactions>
       <Reaction key="Reaction_0" name="Step1" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_0">
     <dcterms:created>
       <rdf:Description>
@@ -648,6 +680,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_2" stoichiometry="1"/>
@@ -662,7 +695,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_5003" name="k1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_0"/>
@@ -699,7 +732,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Constant key="Parameter_5002" name="k1" value="1"/>
           <Constant key="Parameter_5001" name="k2" value="0.01"/>
         </ListOfConstants>
-        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_69">
               <SourceParameter reference="ModelValue_1"/>
@@ -743,7 +776,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_5000" name="k1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_3"/>
@@ -781,7 +814,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Constant key="Parameter_4999" name="k1" value="1"/>
           <Constant key="Parameter_4998" name="k2" value="0.01"/>
         </ListOfConstants>
-        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_69">
               <SourceParameter reference="ModelValue_4"/>
@@ -825,7 +858,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Constant key="Parameter_4997" name="k1" value="1"/>
           <Constant key="Parameter_4996" name="k2" value="0.01"/>
         </ListOfConstants>
-        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_69">
               <SourceParameter reference="ModelValue_6"/>
@@ -871,7 +904,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Constant key="Parameter_4995" name="k1" value="1"/>
           <Constant key="Parameter_4994" name="k2" value="0.01"/>
         </ListOfConstants>
-        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_69">
               <SourceParameter reference="ModelValue_8"/>
@@ -919,7 +952,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Constant key="Parameter_4993" name="k1" value="1"/>
           <Constant key="Parameter_4992" name="k2" value="0.01"/>
         </ListOfConstants>
-        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_69">
               <SourceParameter reference="ModelValue_11"/>
@@ -964,7 +997,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Constant key="Parameter_4991" name="k1" value="1"/>
           <Constant key="Parameter_4990" name="k2" value="0.01"/>
         </ListOfConstants>
-        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_69">
               <SourceParameter reference="ModelValue_13"/>
@@ -985,7 +1018,9 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_8" name="Step9" reversible="true" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_8">
     <dcterms:created>
       <rdf:Description>
@@ -994,6 +1029,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_20" stoichiometry="1"/>
@@ -1007,7 +1043,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Constant key="Parameter_4989" name="k1" value="1"/>
           <Constant key="Parameter_4988" name="k2" value="0.01"/>
         </ListOfConstants>
-        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_69">
               <SourceParameter reference="ModelValue_15"/>
@@ -1051,7 +1087,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_4987" name="k1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_10"/>
@@ -1071,35 +1107,36 @@ Reaction scheme where the products are created from the reactants and the change
           <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise" value="0" type="Model" simulationType="time"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]" value="1" type="Compartment" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Hepatocytes]" value="1" type="Compartment" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[ADP]" value="1.2044283580000001e+21" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[ATP]" value="1.2044283580000001e+21" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[glucose]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[glucose_6_phosphate]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[hexokinase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[fructose_6_phosphate]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[phosphoglucose_isomerase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[fructose_1_6_bisphosphate]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[phosphofructokinase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[aldolase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[dihydroxyacetone_phosphate]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[triose_phosphate_isomerase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[1_3_bisphosphoglycerate]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[NAD]" value="1.2044283580000001e+21" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[NADH]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[Pi]" value="6.0221417900000003e+21" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[glyceraldehyde_3_phosphate]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[glyceraldehyde_3_phosphate_dehydrogenase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[phosphoglycerate_kinase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[3_phosphoglycerate]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[2_phosphoglycerate]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[phosphoglycerate_mutase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[phosphoenolpyruvate]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[phosphopyruvate_hydratase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[pyruvate]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[pyruvate_kinase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[ADP]" value="1.2044283580000001e+21" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[ATP]" value="1.2044283580000001e+21" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[glucose]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[glucose_6_phosphate]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[hexokinase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[fructose_6_phosphate]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[phosphoglucose_isomerase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[fructose_1_6_bisphosphate]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[phosphofructokinase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[aldolase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[dihydroxyacetone_phosphate]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[triose_phosphate_isomerase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[1_3_bisphosphoglycerate]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[NAD]" value="1.2044283580000001e+21" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[NADH]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[Pi]" value="6.0221417900000003e+21" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[glyceraldehyde_3_phosphate]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[glyceraldehyde_3_phosphate_dehydrogenase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[phosphoglycerate_kinase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[3_phosphoglycerate]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[2_phosphoglycerate]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[phosphoglycerate_mutase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[phosphoenolpyruvate]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[phosphopyruvate_hydratase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[pyruvate]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[pyruvate_kinase]" value="6.0221417900000005e+20" type="Species" simulationType="reactions"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
           <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_step1]" value="1" type="ModelValue" simulationType="fixed"/>
@@ -1258,6 +1295,7 @@ Reaction scheme where the products are created from the reactants and the change
       <StateTemplateVariable objectReference="Metabolite_23"/>
       <StateTemplateVariable objectReference="Metabolite_25"/>
       <StateTemplateVariable objectReference="Compartment_0"/>
+      <StateTemplateVariable objectReference="Compartment_1"/>
       <StateTemplateVariable objectReference="ModelValue_0"/>
       <StateTemplateVariable objectReference="ModelValue_1"/>
       <StateTemplateVariable objectReference="ModelValue_2"/>
@@ -1277,7 +1315,7 @@ Reaction scheme where the products are created from the reactants and the change
       <StateTemplateVariable objectReference="ModelValue_16"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 1.2044283580000001e+21 0 0 0 0 0 0 0 0 0 6.0221417900000003e+21 1.2044283580000001e+21 1.2044283580000001e+21 0 6.0221417900000005e+20 0 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 1 1 1 0.01 1 1 0.01 1 0.01 1 0.01 1 1 0.01 1 0.01 1 0.01 
+      0 1.2044283580000001e+21 0 0 0 0 0 0 0 0 0 6.0221417900000003e+21 1.2044283580000001e+21 1.2044283580000001e+21 0 6.0221417900000005e+20 0 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 1 1 1 1 0.01 1 1 0.01 1 0.01 1 0.01 1 1 0.01 1 0.01 1 0.01 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -1637,7 +1675,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[1_3_bisphosphoglycerate],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[1_3_bisphosphoglycerate],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[2_phosphoglycerate]|Time" type="Curve2D">
@@ -1649,7 +1687,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[2_phosphoglycerate],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[2_phosphoglycerate],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[3_phosphoglycerate]|Time" type="Curve2D">
@@ -1661,7 +1699,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[3_phosphoglycerate],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[3_phosphoglycerate],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[ADP]|Time" type="Curve2D">
@@ -1673,7 +1711,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[ADP],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[ADP],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[ATP]|Time" type="Curve2D">
@@ -1685,7 +1723,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[ATP],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[ATP],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[NADH]|Time" type="Curve2D">
@@ -1697,7 +1735,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[NADH],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[NADH],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[NAD]|Time" type="Curve2D">
@@ -1709,7 +1747,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[NAD],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[NAD],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Pi]|Time" type="Curve2D">
@@ -1721,7 +1759,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[Pi],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[Pi],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[aldolase]|Time" type="Curve2D">
@@ -1733,7 +1771,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[aldolase],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[aldolase],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[dihydroxyacetone_phosphate]|Time" type="Curve2D">
@@ -1745,7 +1783,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[dihydroxyacetone_phosphate],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[dihydroxyacetone_phosphate],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[fructose_1_6_bisphosphate]|Time" type="Curve2D">
@@ -1757,7 +1795,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[fructose_1_6_bisphosphate],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[fructose_1_6_bisphosphate],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[fructose_6_phosphate]|Time" type="Curve2D">
@@ -1769,7 +1807,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[fructose_6_phosphate],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[fructose_6_phosphate],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[glucose]|Time" type="Curve2D">
@@ -1781,7 +1819,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[glucose],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[glucose],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[glucose_6_phosphate]|Time" type="Curve2D">
@@ -1793,7 +1831,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[glucose_6_phosphate],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[glucose_6_phosphate],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[glyceraldehyde_3_phosphate]|Time" type="Curve2D">
@@ -1805,7 +1843,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[glyceraldehyde_3_phosphate],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[glyceraldehyde_3_phosphate],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[glyceraldehyde_3_phosphate_dehydrogenase]|Time" type="Curve2D">
@@ -1817,7 +1855,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[glyceraldehyde_3_phosphate_dehydrogenase],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[glyceraldehyde_3_phosphate_dehydrogenase],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[hexokinase]|Time" type="Curve2D">
@@ -1829,7 +1867,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[hexokinase],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[hexokinase],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[phosphoenolpyruvate]|Time" type="Curve2D">
@@ -1841,7 +1879,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[phosphoenolpyruvate],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[phosphoenolpyruvate],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[phosphofructokinase]|Time" type="Curve2D">
@@ -1853,7 +1891,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[phosphofructokinase],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[phosphofructokinase],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[phosphoglucose_isomerase]|Time" type="Curve2D">
@@ -1865,7 +1903,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[phosphoglucose_isomerase],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[phosphoglucose_isomerase],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[phosphoglycerate_kinase]|Time" type="Curve2D">
@@ -1877,7 +1915,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[phosphoglycerate_kinase],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[phosphoglycerate_kinase],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[phosphoglycerate_mutase]|Time" type="Curve2D">
@@ -1889,7 +1927,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[phosphoglycerate_mutase],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[phosphoglycerate_mutase],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[phosphopyruvate_hydratase]|Time" type="Curve2D">
@@ -1901,7 +1939,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[phosphopyruvate_hydratase],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[phosphopyruvate_hydratase],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[pyruvate]|Time" type="Curve2D">
@@ -1913,7 +1951,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[pyruvate],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[pyruvate],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[pyruvate_kinase]|Time" type="Curve2D">
@@ -1925,7 +1963,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[pyruvate_kinase],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[pyruvate_kinase],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[triose_phosphate_isomerase]|Time" type="Curve2D">
@@ -1937,7 +1975,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[compartment],Vector=Metabolites[triose_phosphate_isomerase],Reference=Concentration"/>
+            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells],Vector=Metabolites[triose_phosphate_isomerase],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
       </ListOfPlotItems>
