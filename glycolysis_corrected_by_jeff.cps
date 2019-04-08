@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.24 (Build 197) (http://www.copasi.org) at 2019-04-08 12:52:57 UTC -->
+<!-- generated with COPASI 4.24 (Build 197) (http://www.copasi.org) at 2019-04-08 13:26:05 UTC -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="24" versionDevel="197" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -85,7 +85,9 @@ Reaction scheme where the products are created from the reactants and the change
       </Compartment>
       <Compartment key="Compartment_1" name="Hepatocytes" simulationType="fixed" dimensionality="3" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Compartment_1">
     <dcterms:created>
       <rdf:Description>
@@ -94,6 +96,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Compartment>
     </ListOfCompartments>
@@ -804,10 +807,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_20" name="kf_[H]step2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_19" name="kf_[H]step2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_20">
+  <rdf:Description rdf:about="#ModelValue_19">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2019-04-03T19:07:58Z</dcterms:W3CDTF>
@@ -817,10 +820,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_21" name="kb_[H]step2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_20" name="kb_[H]step2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_21">
+  <rdf:Description rdf:about="#ModelValue_20">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2019-04-03T18:31:12Z</dcterms:W3CDTF>
@@ -830,10 +833,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_22" name="kf_[H]_to_[S]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_21" name="kf_[H]_to_[S]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_22">
+  <rdf:Description rdf:about="#ModelValue_21">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2019-04-02T22:05:30Z</dcterms:W3CDTF>
@@ -843,10 +846,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_23" name="kf_[S]step1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_22" name="kf_[S]step1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_23">
+  <rdf:Description rdf:about="#ModelValue_22">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2019-04-03T19:09:19Z</dcterms:W3CDTF>
@@ -856,10 +859,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_24" name="kf_[S]step2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_23" name="kf_[S]step2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_24">
+  <rdf:Description rdf:about="#ModelValue_23">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2019-04-03T19:06:26Z</dcterms:W3CDTF>
@@ -869,10 +872,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_25" name="kb_[S]step2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_24" name="kb_[S]step2" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_25">
+  <rdf:Description rdf:about="#ModelValue_24">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2019-04-03T19:08:03Z</dcterms:W3CDTF>
@@ -882,12 +885,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_26" name="kf_[S]step3" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_25" name="kf_[S]step3" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_26">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_25">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2019-04-03T19:04:26Z</dcterms:W3CDTF>
@@ -895,7 +896,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </ModelValue>
     </ListOfModelValues>
@@ -1327,9 +1327,11 @@ Reaction scheme where the products are created from the reactants and the change
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_10" name="[H]step1" reversible="true" fast="false" addNoise="false">
+      <Reaction key="Reaction_10" name="[H] lactic_acid -> pyruvate" reversible="true" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_10">
     <dcterms:created>
       <rdf:Description>
@@ -1338,6 +1340,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_26" stoichiometry="1"/>
@@ -1374,9 +1377,11 @@ Reaction scheme where the products are created from the reactants and the change
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_11" name="[H]step2" reversible="true" fast="false" addNoise="false">
+      <Reaction key="Reaction_11" name="[H] glyconeogenesis" reversible="true" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_11">
     <dcterms:created>
       <rdf:Description>
@@ -1385,6 +1390,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_27" stoichiometry="2"/>
@@ -1394,13 +1400,13 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_29" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4984" name="k1" value="0.1"/>
+          <Constant key="Parameter_4984" name="k1" value="0.01"/>
           <Constant key="Parameter_4983" name="k2" value="0.01"/>
         </ListOfConstants>
         <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Hepatocytes]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_69">
-              <SourceParameter reference="ModelValue_20"/>
+              <SourceParameter reference="ModelValue_19"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_68">
               <SourceParameter reference="Metabolite_27"/>
@@ -1413,7 +1419,7 @@ Reaction scheme where the products are created from the reactants and the change
               <SourceParameter reference="Metabolite_30"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_78">
-              <SourceParameter reference="ModelValue_21"/>
+              <SourceParameter reference="ModelValue_20"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_79">
               <SourceParameter reference="Metabolite_29"/>
@@ -1451,7 +1457,7 @@ Reaction scheme where the products are created from the reactants and the change
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_22"/>
+              <SourceParameter reference="ModelValue_21"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
               <SourceParameter reference="Metabolite_29"/>
@@ -1459,9 +1465,11 @@ Reaction scheme where the products are created from the reactants and the change
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_13" name="[S]step 1" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_13" name="[S] pyruvate_aerobic_respiration" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_13">
     <dcterms:created>
       <rdf:Description>
@@ -1470,6 +1478,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_24" stoichiometry="1"/>
@@ -1480,7 +1489,7 @@ Reaction scheme where the products are created from the reactants and the change
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_23"/>
+              <SourceParameter reference="ModelValue_22"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
               <SourceParameter reference="Metabolite_24"/>
@@ -1488,9 +1497,11 @@ Reaction scheme where the products are created from the reactants and the change
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_14" name="[S]step2" reversible="true" fast="false" addNoise="false">
+      <Reaction key="Reaction_14" name="[S] pyruvate -> lactic_acid" reversible="true" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_14">
     <dcterms:created>
       <rdf:Description>
@@ -1499,6 +1510,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_24" stoichiometry="1"/>
@@ -1511,13 +1523,13 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_33" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4980" name="k1" value="100"/>
+          <Constant key="Parameter_4980" name="k1" value="1"/>
           <Constant key="Parameter_4979" name="k2" value="0.01"/>
         </ListOfConstants>
         <KineticLaw function="Function_14" unitType="Default" scalingCompartment="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Skeletal_muscle_cells]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_69">
-              <SourceParameter reference="ModelValue_24"/>
+              <SourceParameter reference="ModelValue_23"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_68">
               <SourceParameter reference="Metabolite_24"/>
@@ -1525,7 +1537,7 @@ Reaction scheme where the products are created from the reactants and the change
               <SourceParameter reference="Metabolite_33"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_78">
-              <SourceParameter reference="ModelValue_25"/>
+              <SourceParameter reference="ModelValue_24"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_79">
               <SourceParameter reference="Metabolite_34"/>
@@ -1535,9 +1547,11 @@ Reaction scheme where the products are created from the reactants and the change
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_15" name="[S]step3" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_15" name="[S]_to_[H]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_15">
     <dcterms:created>
       <rdf:Description>
@@ -1546,6 +1560,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_34" stoichiometry="1"/>
@@ -1559,7 +1574,7 @@ Reaction scheme where the products are created from the reactants and the change
         <KineticLaw function="Function_13" unitType="Default">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_26"/>
+              <SourceParameter reference="ModelValue_25"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
               <SourceParameter reference="Metabolite_34"/>
@@ -1635,11 +1650,11 @@ Reaction scheme where the products are created from the reactants and the change
           <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kb_step9]" value="0.01" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[H\]step1]" value="1" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kb_\[H\]step1]" value="0.01" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[H\]step2]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[H\]step2]" value="0.01" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kb_\[H\]step2]" value="0.01" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[H\]_to_\[S\]]" value="1" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[S\]step1]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[S\]step2]" value="100" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[S\]step2]" value="1" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kb_\[S\]step2]" value="0.01" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[S\]step3]" value="0.01" type="ModelValue" simulationType="fixed"/>
         </ModelParameterGroup>
@@ -1749,25 +1764,25 @@ Reaction scheme where the products are created from the reactants and the change
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[H\]step1]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[H\]step1],ParameterGroup=Parameters,Parameter=k1" value="1" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[H\] lactic_acid -\> pyruvate]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[H\] lactic_acid -\> pyruvate],ParameterGroup=Parameters,Parameter=k1" value="1" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[H\]step1],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[H\]step1],ParameterGroup=Parameters,Parameter=k2" value="0.01" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[H\] lactic_acid -\> pyruvate],ParameterGroup=Parameters,Parameter=k2" value="0.01" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kb_\[H\]step1],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[H\]step2]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[H\]step2],ParameterGroup=Parameters,Parameter=k1" value="0.10000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[H\] glyconeogenesis]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[H\] glyconeogenesis],ParameterGroup=Parameters,Parameter=k1" value="0.01" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[H\]step2],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[H\]step2],ParameterGroup=Parameters,Parameter=k2" value="0.01" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[H\] glyconeogenesis],ParameterGroup=Parameters,Parameter=k2" value="0.01" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kb_\[H\]step2],Reference=InitialValue>
               </InitialExpression>
@@ -1780,27 +1795,27 @@ Reaction scheme where the products are created from the reactants and the change
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\]step 1]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\]step 1],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\] pyruvate_aerobic_respiration]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\] pyruvate_aerobic_respiration],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[S\]step1],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\]step2]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\]step2],ParameterGroup=Parameters,Parameter=k1" value="100" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\] pyruvate -\> lactic_acid]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\] pyruvate -\> lactic_acid],ParameterGroup=Parameters,Parameter=k1" value="1" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[S\]step2],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\]step2],ParameterGroup=Parameters,Parameter=k2" value="0.01" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\] pyruvate -\> lactic_acid],ParameterGroup=Parameters,Parameter=k2" value="0.01" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kb_\[S\]step2],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\]step3]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\]step3],ParameterGroup=Parameters,Parameter=k1" value="0.01" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\]_to_\[H\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Reactions[\[S\]_to_\[H\]],ParameterGroup=Parameters,Parameter=k1" value="0.01" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Values[kf_\[S\]step3],Reference=InitialValue>
               </InitialExpression>
@@ -1826,12 +1841,12 @@ Reaction scheme where the products are created from the reactants and the change
       <StateTemplateVariable objectReference="Metabolite_22"/>
       <StateTemplateVariable objectReference="Metabolite_19"/>
       <StateTemplateVariable objectReference="Metabolite_14"/>
-      <StateTemplateVariable objectReference="Metabolite_27"/>
+      <StateTemplateVariable objectReference="Metabolite_2"/>
       <StateTemplateVariable objectReference="Metabolite_15"/>
       <StateTemplateVariable objectReference="Metabolite_35"/>
       <StateTemplateVariable objectReference="Metabolite_13"/>
+      <StateTemplateVariable objectReference="Metabolite_27"/>
       <StateTemplateVariable objectReference="Metabolite_7"/>
-      <StateTemplateVariable objectReference="Metabolite_2"/>
       <StateTemplateVariable objectReference="Metabolite_0"/>
       <StateTemplateVariable objectReference="Metabolite_31"/>
       <StateTemplateVariable objectReference="Metabolite_32"/>
@@ -1868,16 +1883,16 @@ Reaction scheme where the products are created from the reactants and the change
       <StateTemplateVariable objectReference="ModelValue_16"/>
       <StateTemplateVariable objectReference="ModelValue_17"/>
       <StateTemplateVariable objectReference="ModelValue_18"/>
+      <StateTemplateVariable objectReference="ModelValue_19"/>
       <StateTemplateVariable objectReference="ModelValue_20"/>
       <StateTemplateVariable objectReference="ModelValue_21"/>
       <StateTemplateVariable objectReference="ModelValue_22"/>
       <StateTemplateVariable objectReference="ModelValue_23"/>
       <StateTemplateVariable objectReference="ModelValue_24"/>
       <StateTemplateVariable objectReference="ModelValue_25"/>
-      <StateTemplateVariable objectReference="ModelValue_26"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 6.0221417900000009e+22 1.2044283580000001e+21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6.0221417900000003e+21 0 1.2044283580000001e+21 0 6.0221417900000005e+20 1.2044283580000001e+21 6.0221417900000003e+21 6.0221417900000003e+21 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 1 1 1 1 0.01 1 1 0.01 1 0.01 1 0.01 1 1 0.01 1 0.01 1 0.01 1 0.01 0.10000000000000001 0.01 1 0 100 0.01 0.01 
+      0 6.0221417900000009e+22 1.2044283580000001e+21 0 0 0 0 0 0 0 0 0 0 0 0 0 6.0221417900000005e+20 6.0221417900000003e+21 0 1.2044283580000001e+21 0 0 1.2044283580000001e+21 6.0221417900000003e+21 6.0221417900000003e+21 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 6.0221417900000005e+20 1 1 1 1 0.01 1 1 0.01 1 0.01 1 0.01 1 1 0.01 1 0.01 1 0.01 1 0.01 0.01 0.01 1 0 1 0.01 0.01 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -2040,6 +2055,10 @@ Reaction scheme where the products are created from the reactants and the change
           <ParameterGroup name="Variables">
             <Parameter name="SingleObject" type="cn" value=""/>
             <Parameter name="ObjectListType" type="unsignedInteger" value="41"/>
+          </ParameterGroup>
+          <ParameterGroup name="Variables">
+            <Parameter name="SingleObject" type="cn" value=""/>
+            <Parameter name="ObjectListType" type="unsignedInteger" value="0"/>
           </ParameterGroup>
         </ParameterGroup>
       </Problem>
@@ -2233,72 +2252,6 @@ Reaction scheme where the products are created from the reactants and the change
     </Report>
   </ListOfReports>
   <ListOfPlots>
-    <PlotSpecification name="plot" type="Plot2D" active="1" taskTypes="">
-      <Parameter name="log X" type="bool" value="0"/>
-      <Parameter name="log Y" type="bool" value="0"/>
-      <ListOfPlotItems>
-        <PlotItem name="[h_ATP]|Time" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Hepatocytes],Vector=Metabolites[h_ATP],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[h_glucose]|Time" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Hepatocytes],Vector=Metabolites[h_glucose],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[h_lactate_dehydrogenase]|Time" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Hepatocytes],Vector=Metabolites[h_lactate_dehydrogenase],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[h_lactic_acid]|Time" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Hepatocytes],Vector=Metabolites[h_lactic_acid],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="[h_pyruvate]|Time" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=Glycolysis - ICMB1 exercise,Vector=Compartments[Hepatocytes],Vector=Metabolites[h_pyruvate],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-      </ListOfPlotItems>
-    </PlotSpecification>
     <PlotSpecification name="plot_1" type="Plot2D" active="1" taskTypes="">
       <Parameter name="log X" type="bool" value="0"/>
       <Parameter name="log Y" type="bool" value="0"/>
